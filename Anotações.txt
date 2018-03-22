@@ -1,8 +1,5 @@
 .gitignore para ignorar arquivos de extensões especificas, nunca upar bibliotecas ou arquivos que são criados automaticamente
 
-
-
-
 pwd - para ver onde esta meu repositório;
 clear - limpar a tela;
 ls - para mostrar tudo que tem no repositório;
@@ -34,4 +31,4 @@ c) push, para mandar os arquivos para o github(internet), vai pedir sua senha ou
 O contribuidor sempre tem que puxar o que tem no github que ele ainda não tem e depois fazer o push, para puxar:
    git pull
 e ai o git push vai funcionar;
-----------------------------
+--------------------------------------
