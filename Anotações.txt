@@ -1,0 +1,34 @@
+.gitignore para ignorar arquivos de extensões especificas, nunca upar bibliotecas ou arquivos que são criados automaticamente
+
+pwd - para ver onde esta meu repositório;
+clear - limpar a tela;
+ls - para mostrar tudo que tem no repositório;
+cd diretório ou caminho do diretório - para entrar em um diretório, utilize o cd;
+usar a tecla pra cima permite ver os comandos que já foram utilizados e também da pra apertar para baixo depois;
+ctrl + c - para cancelar, ou seja ao invés de você apagar a linha, você cancela e da o mesmo efeito
+shift + insert - para colar alguma coisa no git bash
+
+Para clonar uma repositório:
+git clone url do repositório - exemplo: git clone https://github.com/HenGuimaraes/Projeto_em_dupla
+Será clonado(criado) o repostório na pasta atual em que você estiver navegando no git bash
+
+Quando você esta dentro do repositório o git bash deixa do lado do nome um (master), se você esta no repositório master que é o repositório controlado pelo GIT então você pode ver o status;
+git status - mostra o status do repistório, se tem coisa nova que não foi adicionada ao GIT(vermelho), se tem coisa nova que foi adicionada ao GIT(verde) e se tem coisa que já tava lá(branco);
+
+----------------------------
+Para enviar os arquivos para o github e commitar tem 3 passos:
+a) adicionar os arquivos que você quer antes de serem commitados:
+   git add - para adicionar um arquivo especifico ou vários especificos então: git add nomeDoArquivo.extensão; 
+   caso seja todos então: git add .
+
+b) commitar, é dizer o porque você esta adicionando aqueles arquivos antes de manda-los para o github(internet):
+   git commit -m "descrição do porque"
+o -m é para dizer que você vai por uma descrição
+
+c) push, para mandar os arquivos para o github(internet), vai pedir sua senha ou para você se logar, ai você loga:
+   git push
+
+O contribuidor sempre tem que puxar o que tem no github que ele ainda não tem e depois fazer o push, para puxar:
+   git pull
+e ai o git push vai funcionar;
+----------------------------
