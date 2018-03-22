@@ -1,5 +1,8 @@
 .gitignore para ignorar arquivos de extensões especificas, nunca upar bibliotecas ou arquivos que são criados automaticamente
 
+
+
+
 pwd - para ver onde esta meu repositório;
 clear - limpar a tela;
 ls - para mostrar tudo que tem no repositório;
