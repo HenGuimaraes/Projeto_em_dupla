@@ -32,3 +32,4 @@ O contribuidor sempre tem que puxar o que tem no github que ele ainda não tem e 
    git pull
 e ai o git push vai funcionar;
 --------------------------------------
+gif diff - mostra qual foi a  modificação que teve no arquivo.
