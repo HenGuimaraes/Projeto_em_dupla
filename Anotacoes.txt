@@ -34,4 +34,11 @@ e ai o git push vai funcionar;
 --------------------------------------
 gif diff - mostra qual foi a  modificação que teve no arquivo.
 
+-------------------------------------------------------------
+BRANCH E PR
 
+Branch são tarefas que você pode criar para não se misturar com a versão "oficial" do projeto, assim você cria uma versão virtual para poder ser modificado
+PR é o pull request que você faz para poder subir sua tarefa, antes de subir com o pull request você vê o que foi alterado e se o seu código vai para produção
+
+Para criar um branch você tem que ir no seu projeto no site do github e criar lá na caixinha de branch, depois que criado, vá no seu gitbash e de um git pull para seu projeto saber das novidades
+Para mudar de branch: git checkout nomeDaTarefa
