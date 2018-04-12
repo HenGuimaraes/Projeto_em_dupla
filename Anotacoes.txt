@@ -42,3 +42,6 @@ PR é o pull request que você faz para poder subir sua tarefa, antes de subir com
 
 Para criar um branch você tem que ir no seu projeto no site do github e criar lá na caixinha de branch, depois que criado, vá no seu gitbash e de um git pull para seu projeto saber das novidades
 Para mudar de branch: git checkout nomeDaTarefa
+
+Tudo que foi feito naquele branch ficara apenas naquele branch, para misturar você tem que ir no site do github e dar um pull request, você pode ver as alterações e depois confirmar o pull request e ai você pode deixar lá para que os outros revisem antes de dar o merge e misturar os arquivos a outro branch, ou seja, o branch oficial.
+Existe o histórico do repositório, onde você consegue ver a linha de tempo dos branchs.
